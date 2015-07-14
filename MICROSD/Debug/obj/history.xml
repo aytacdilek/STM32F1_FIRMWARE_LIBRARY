@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.9.2 i686-w64-mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103ZE -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\MICROSD\cmsis -I..\..\..\workspace -I..\..\..\workspace\MICROSD\cmsis_boot -I..\..\..\workspace\MICROSD\bsp -I..\..\.. -I..\..\..\workspace\MICROSD\stm_lib\inc -I..\..\..\workspace\MICROSD\stm_lib -I..\..\..\workspace\MICROSD -I..\..\..\workspace\MICROSD\fatfs">
+      <target file="stm32f10x_microsd.o" lastModified="14dee0914d0">
+         <source file="..\..\..\stm32f10x_microsd.c" lastModified="14dee0863a6"/>
+      </target>
+      <target file="stm32f10x_fatfs.o" lastModified="14dee2bd843">
+         <source file="..\..\..\stm32f10x_fatfs.c" lastModified="14dee2bccc5"/>
+      </target>
+      <target file="startup_stm32f10x_hd.o" lastModified="14dedfeac56">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="14de81d9bf8"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="14dedfeabcf">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14de81d9bff"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="14dedfeb1f8">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="14de81d9beb"/>
+      </target>
+      <target file="main.o" lastModified="14dedfeae3f">
+         <source file="..\..\..\main.c" lastModified="14dedf4a2bf"/>
+      </target>
+      <target file="SPI_MSD_Driver.o" lastModified="14dedfeb03e">
+         <source file="..\..\..\fatfs\SPI_MSD_Driver.c" lastModified="14de8469362"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="14dedfeada0">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14de81d9c0b"/>
+      </target>
+      <target file="ff.o" lastModified="14dedfeb14c">
+         <source file="..\..\..\fatfs\ff.c" lastModified="14de81fe65c"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="14dedfeaeee">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14de81d9bf3"/>
+      </target>
+      <target file="open103z_systick.o" lastModified="14dedfeb29b">
+         <source file="..\..\..\bsp\open103z_systick.c" lastModified="149e0d780e0"/>
+      </target>
+      <target file="diskio.o" lastModified="14dee091373">
+         <source file="..\..\..\fatfs\diskio.c" lastModified="14dee08c98c"/>
+      </target>
+   </processor>
+</history>

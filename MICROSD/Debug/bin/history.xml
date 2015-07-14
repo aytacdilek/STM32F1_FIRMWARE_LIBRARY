@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.9.3 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=MICROSD.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\MICROSD -TC:\CooCox\CoIDE\configuration\ProgramData\MICROSD/arm-gcc-link.ld -g">
+      <target file="MICROSD.elf" lastModified="14dee2bda90">
+         <source file="..\obj\system_stm32f10x.o" lastModified="14dedfeabcf"/>
+         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="14dedfeac56"/>
+         <source file="..\obj\diskio.o" lastModified="14dee091373"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="14dedfeada0"/>
+         <source file="..\obj\main.o" lastModified="14dedfeae3f"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="14dedfeaeee"/>
+         <source file="..\obj\stm32f10x_fatfs.o" lastModified="14dee2bd843"/>
+         <source file="..\obj\ff.o" lastModified="14dedfeb14c"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="14dedfeb1f8"/>
+         <source file="..\obj\stm32f10x_microsd.o" lastModified="14dee0914d0"/>
+         <source file="..\obj\open103z_systick.o" lastModified="14dedfeb29b"/>
+      </target>
+   </processor>
+</history>
