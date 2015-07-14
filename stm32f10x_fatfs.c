@@ -205,8 +205,4 @@ FATFSError_TypeDef fatfs_closeFile(FIL* fp){
 * 						Line end identifier ('\ n') is automatically appended
 *******************************************************************************/
 FATFSError_TypeDef fatfs_writeString(FIL* fp, const char* text){
-	FATFS_t ret_value = FATFS_PUTS_ERR;
-	FRESULT check = FR_OK;
-
-	check = f_puts
 }
