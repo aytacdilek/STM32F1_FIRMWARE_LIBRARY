@@ -1,6 +1,6 @@
 /*
  * File			:	stm32f10x_hmc5883l.c
- * Description	:	STM32F10x library for HTU21 Digital Humidity and Temperature Sensor
+ * Description		:	STM32F10x library for HMC5883 digital compass sensor
  * Datum		:	2015.03.20
  * Version		:	1.0
  * Author		:	Aytac Dilek
